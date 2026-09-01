@@ -37,7 +37,10 @@ public class JsonGraphEditorExample
         File.WriteAllText(path, exampleJson);
         
         EditorUtility.DisplayDialog("Success", "Example JSON created at:\n" + path, "OK");
-        EditorGUIUtility.PingAsset(path);
+        
+        // 使用正确的资源路径格式
+        string assetPath = "Assets/example.json";
+        AssetDatabase.Refresh();
     }
 
     [MenuItem("Tools/Json Graph Editor/Open Editor Window")]
