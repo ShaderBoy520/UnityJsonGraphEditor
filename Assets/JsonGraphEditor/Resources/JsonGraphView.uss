@@ -1,0 +1,73 @@
+#json-graph-view {
+    flex-grow: 1;
+    background-color: #1e1e1e;
+}
+
+.json-node {
+    background-color: #2d2d30;
+    border-color: #007acc;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.json-node:hover {
+    background-color: #3e3e42;
+    border-color: #0098ff;
+}
+
+.json-node:selected {
+    background-color: #005a9e;
+    border-color: #007acc;
+}
+
+.node-main-container {
+    padding: 10px;
+    background-color: #2d2d30;
+}
+
+.node-type-label {
+    color: #ce9178;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+#json-node-key {
+    margin-bottom: 5px;
+}
+
+#json-node-value {
+    margin-bottom: 5px;
+}
+
+TextField {
+    font-size: 12px;
+}
+
+TextField > Label {
+    color: #d4d4d4;
+    font-size: 11px;
+}
+
+TextField > TextInput {
+    background-color: #3e3e42;
+    color: #d4d4d4;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.port {
+    width: 12px;
+    height: 12px;
+}
+
+Port {
+    color: #007acc;
+}
+
+Port.input {
+    align-items: center;
+}
+
+Port.output {
+    align-items: center;
+}
