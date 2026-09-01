@@ -1,0 +1,27 @@
+{
+  "name": "com.shaderboy.json-graph-editor",
+  "version": "1.0.0",
+  "displayName": "JSON Graph Editor",
+  "description": "A visual JSON editor for Unity using GraphView for node-based editing",
+  "unity": "2020.3",
+  "author": {
+    "name": "ShaderBoy520",
+    "email": "36757339+ShaderBoy520@users.noreply.github.com",
+    "url": "https://github.com/ShaderBoy520"
+  },
+  "keywords": [
+    "json",
+    "editor",
+    "graphview",
+    "visual",
+    "node-based",
+    "data-editor"
+  ],
+  "category": "Editor",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShaderBoy520/UnityJsonGraphEditor.git"
+  },
+  "license": "MIT"
+}
